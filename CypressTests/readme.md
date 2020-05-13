@@ -45,6 +45,9 @@ ten cucumber project sa da spustit tak,ze v cypress.json nahradim:"testFiles": "
 
  "ignoreTestFiles" : ["*.js", "*.md"],
 "testFiles": "**/*.{feature,features}",
+este jedna drobnost: v tom test case:VBTest.js ma byt v describe nie: 'fero',ale 'Investor groups feature' a v 'it' bloku namiesto 'jozo' ma byt 'should add new investor group'
+z neajkeho dovodu mi to nejde commitnut=,tak to davam sem.dakujem
+
 
 Pekny den
 
