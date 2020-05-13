@@ -1,5 +1,5 @@
 Ahojte,
-tu su tie TCs a strategia.Dufam,ze som na nic nezabudol
+tu su tie TCs a strategia.Dufam,ze som na nic nezabudol.
 
 
 Navrh testovania:po unit testoch od programatorov a deployi tejto komponenty by som najprv spravil sanity test manualne podla dizajnu/specifikacie,ci nie je preklep v texte napr,ci splna requirements.
@@ -14,6 +14,7 @@ skontroluj,ci idu pridavat,ci sa spravne sejvuje,ci ide vymazat korektne(toto ne
 uloz kpi a preklikni sa do investors grouppozri,ci sa spravne dotahuju udaje(btw v tom okne add investor groups je button 'add' v disable mode,pokial tam nie su kpi,tj neviem pridat novu grupu,ale ked kliknem enter,tak to pusti a ide to.to by asi nemalo)
 pridaj novu investor group-pozri,ci sa spravne dotahuju udaje z kpi configuration,ci checkboxy su klikatelne
 skontroluj,ci sa nazov dotiahol do tabulky a ci sedia visible kpis(pridaj,odober)
+skontroluj,ci ide spravne vymazat udaj
 
 #2(req1,req2..):
 Test case(integracny) medzi kpi komponentou a investor groups:
@@ -26,9 +27,9 @@ klik na assign to group-dostaneme sa na okno,kde sa da vybrat investor groups,kp
 check,KPI visibility settings ci sa sprravne dotahuju
 pridel ku grupe a preklikni sa na investor groups a pozri,ci sa naparoval investor spravne
 potom ho remove from group mozeme a tiez verifikovat,ci v i.groups,ci je aj odtial prec
-dalej skus
+dalej skus pridat /odobrat co-admin prava-kontroluj,ci sa spravne dotahuju
 
-Tie tc vyssie nie su zrovna pisane najformalnejsie,ale musim uz odovzdat,tak som zvolil takyto 'slangovejsi' zargon nateraz
+Tie tc vyssie nie su zrovna pisane najformalnejsie,ale musim uz odovzdat,tak som zvolil takyto 'slangovejsi' zargon nateraz,aby som stihol do 9tej.
 snazil som sa co najviac pokryt do jedneho tc
 
 
