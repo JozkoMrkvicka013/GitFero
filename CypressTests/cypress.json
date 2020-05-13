@@ -1,0 +1,11 @@
+{
+  "video" : false,
+  "chromeWebSecurity" : false,
+  "defaultCommandTimeout" : 8000,
+  "reporter" : "mochawesome",
+  "testFiles": "**/*.js",
+  "env" : {
+    "url" : "https://app.vestberry.com/"
+  }
+
+}
