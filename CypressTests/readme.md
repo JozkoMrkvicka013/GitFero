@@ -50,6 +50,23 @@ z neajkeho dovodu mi to nejde commitnut,tak to davam sem.
 Keby nieco nebolo jasne,tak ma kludne kontaktujte
 Dakujem a Pekny den
 
+*Este jedna poznamka mimo sutaz(po deadline): v subore: suppport/pafeObjects/KPIConfigurationPage.js
+
+tieto 4 riadky platia na specialny pripad,ked nie su ziadne kpi
+         cy.get(KPI_DROPDOWNS_PREFIX).first().click().type('{downarrow}').click().type(kpi)
+         cy.contains(kpi).type('{enter}')
+         cy.get(KPI_DROPDOWNS_PREFIX).eq(1).type('{enter}')
+         cy.get(KPI_DROPDOWNS_PREFIX).last().type('{downarrow}{enter}')
+
+
+
+        Ked uz je jedna a viac kpis pridanych(tj vseobecne),tak vseobecne platia tieto 4:
+
+         cy.get(KPI_DROPDOWNS_PREFIX).eq(-3).click().type('{downarrow}').click().type(kpi)
+         cy.contains(kpi).type('{enter}')
+         cy.get(KPI_DROPDOWNS_PREFIX).eq(-2).type('{enter}')
+         cy.get(KPI_DROPDOWNS_PREFIX).last().type('{downarrow}{enter}')
+
 
 
 Filip
